@@ -4,16 +4,16 @@
 ![Language](https://img.shields.io/badge/Language-Java%20ME-orange)
 ![Device](https://img.shields.io/badge/Device-Torch%209800-blue)
 
-A high-performance scientific calculator designed specifically for the **BlackBerry Torch 9800**. Developed using **Java ME** and the **BlackBerry JDE 6.0.0**, this app provides a seamless experience for both touch-screen and physical keyboard users.
+A high-performance scientific calculator designed specifically for the **BlackBerry Torch 9800**. This application leverages the **Java ME** framework and **BlackBerry JDE 6.0.0** to provide a seamless calculation experience for both touch-screen and physical keyboard interaction.
 
 ## 🚀 Features
-- **Optimized UI:** Custom layout designed for the 480x360 resolution of the Torch 9800.
-- **Scientific Functions:**
-  - Trigonometry: $\sin, \cos, \tan$ and their inverses.
-  - Logarithms: $\log, \ln$.
-  - Roots & Powers: $\sqrt{x}, x^y, e^x$.
-  - Constants: $\pi, e$.
-- **Efficient Engine:** Lightweight code designed to minimize memory footprint on legacy hardware.
+- **Optimized UI:** Custom layout specifically tuned for the 480x360 resolution of the Torch 9800.
+- **Scientific Logic:**
+  - Full Trigonometric support: $\sin, \cos, \tan$ and inverses.
+  - Logarithmic functions: $\log, \ln$.
+  - Roots and Powers: $\sqrt{x}, x^y, e^x$.
+  - Mathematical Constants: $\pi, e$.
+- **Legacy Performance:** Optimized memory management to ensure smooth operation on vintage hardware.
 
 ## 🛠 Technical Stack
 - **Target OS:** BlackBerry OS 6.0.
@@ -21,13 +21,14 @@ A high-performance scientific calculator designed specifically for the **BlackBe
 - **Language:** Java Micro Edition (Java ME).
 
 ## 📂 Project Structure
-- `src/`: Contains the Java source files (`CalcApp.java`, `MathEngine.java`, etc.).
-- `res/`: Icons and UI assets.
-- `deliverables/`: Ready-to-install binaries (`.jad`, `.cod`).
+- `src/`: Java source code (Logic and UI).
+- `res/`: Visual assets and application icons.
+- `deliverables/`: Compiled binaries (`.jad`, `.cod`) ready for device installation.
 
 ## 📥 Installation
-1. Download the `deliverables` folder.
-2. Use the **BlackBerry Desktop Software** to load the files onto your device, or transfer the `.jad` and `.cod` files directly to your device's memory and install via the File Manager.
+1. Navigate to the `deliverables` folder.
+2. Transfer the `.jad` and `.cod` files to your BlackBerry device.
+3. Install via the device's File Manager or use **BlackBerry Desktop Software**.
 
 ---
-**Developed by Mohamed BOURI** *Oued Zem, Morocco*
+**Developed by Mohamed BOURI**
